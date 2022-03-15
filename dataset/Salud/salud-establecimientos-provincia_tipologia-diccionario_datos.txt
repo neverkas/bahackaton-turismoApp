@@ -1,0 +1,13 @@
+Referencias de encabezados de columnas.
+
+Tipo: Publicos y Privados | Publicos | Privados
+ESCIG: Establecimiento de salud con internación general
+ESCIEP: Establecimiento de salud con internación especializada en pediatría
+ESCIEM: Establecimiento de salud con internación especializada en maternidad/m. infantil
+ESCIESM: Establecimiento de salud con internación especializada en salud mental
+ESCIE: Establecimiento de salud con internación especializada en otras especialidades
+ESCIETE: Establecimiento de salud con internación especializada en tercera edad. Este registro corresponde solamente a los establecimientos que son habilitados por los Ministerios de Salud.
+ESSIDT: Establecimiento de salud sin internación de diagnóstico y tratamiento
+ESSID: Establecimiento de salud sin internación de diagnóstico
+ESSIT: Establecimiento de salud sin internación de tratamiento
+ESCL: Establecimiento de salud complementario

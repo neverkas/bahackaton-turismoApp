@@ -1,0 +1,273 @@
+/* Put your CSS here */
+html, body {
+   /*margin: 20px;*/
+    background-color: #e6e6e6;
+
+}
+
+div .ember-view {
+	display: none;
+}
+
+
+
+div .tweet {
+	color: rgb(51, 51, 51);
+	margin-bottom: 10px;
+	background-color: #ffffff;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 10px;
+	padding-bottom: 5px;
+}
+
+div .tweet:hover {
+	background-color: rgb(254, 255, 247);
+}
+
+div .tweet p {
+	
+}
+
+
+div .tweet .controls {
+	display: none;
+	text-align: right;
+}
+
+
+div .tweet:hover .controls {
+	display: block;
+}
+
+.arrow-down {
+	width: 0;
+	height: 0;
+	position: absolute;
+	margin-left: 63px;
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	border-top: 20px solid #ffffff;
+	z-index: 99999;
+}
+div .tweet:hover .arrow-down {
+	border-top: 20px solid rgb(254, 255, 247);
+}
+div .map {
+	height: 200px;
+}
+
+div .bigMap {
+	/*height: 700px;*/
+	position: absolute;
+	display: block;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.bigMap img {
+    max-width: none;
+}
+
+.bigMap label {
+    width: auto; display:inline;
+}
+
+
+div .media-content {
+	max-height: 250px;
+	overflow: hidden;
+}
+div .media-content .video {
+	background-color: rgb(236, 236, 236);
+}
+
+div .tweet:hover .media-content .video {
+	background-color: rgb(180, 180, 180);
+}
+
+.autocompleted {
+	max-height: 40px;
+}
+
+.autocompleted-list {
+	max-height: 160px; 
+	padding: 0px; 
+	overflow-y: auto;
+}
+
+
+
+.ui-content {
+    text-align: center;
+}
+
+.pt-menu .ui-btn {
+    cursor: pointer;
+    display: inline-block;
+    height: 100px;
+    margin: 5px !important;
+    padding: 10px;
+    text-align: center;
+    width: 110px;
+    /*border-radius: 200px;*/
+}
+
+.pt-menu .ui-btn-inner {
+    border: 0;
+}
+
+.pt-menu .ui-btn img {
+    /*height: 50px;*/
+}
+
+/*************************** nav - custom chubut ******************************/
+/*************************** nav - custom chubut ******************************/
+/*************************** nav - custom chubut ******************************/
+
+.center {
+     float: none;
+     margin-left: auto;
+     margin-right: auto;
+}
+
+.nav > li > a:hover, 
+.nav > li > a:focus{
+	color:#fff;
+	background: #1E6C88;
+}
+
+.navbar-chubut .navbar-inner {
+  background-color: #037B97;
+  background-image: -moz-linear-gradient(top, #1986a0, #037B97);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#1986a0), to(#037B97));
+  background-image: -webkit-linear-gradient(top, #1986a0, #037B97);
+  background-image: -o-linear-gradient(top, #1986a0, #037B97);
+  background-image: linear-gradient(to bottom, #1986a0, #037B97);
+  background-repeat: repeat-x;
+  border-color: #252525;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff222222', endColorstr='#ff111111', GradientType=0);
+}
+
+.navbar-chubut .brand,
+.navbar-chubut .nav > li > a {
+  color: #fff;
+  text-shadow: 0 -1px 0 rgba(3, 123, 151, 0.25);
+}
+
+.navbar-chubut .brand:hover{
+  color: #FC8D0D;
+}
+.navbar-chubut .nav > li > a:hover,
+.navbar-chubut .brand:focus,
+.navbar-chubut .nav > li > a:focus {
+	/*background-color: #247b96;*/
+	/*background-color: red;	*/
+}
+
+.navbar-inverse .nav-collapse .nav > li > a,
+.navbar-inverse .nav-collapse .dropdown-menu a {
+	color: #ccc;
+}
+
+.navbar-chubut .nav-collapse .nav > li > a:hover,
+.navbar-chubut .nav-collapse .nav > li > a:focus,
+.navbar-chubut .nav-collapse .dropdown-menu a:hover,
+.navbar-chubut .nav-collapse .dropdown-menu a:focus {
+	/*background-color: #247b96;  chubut dark blue */
+	color: #fff;
+	background-color: #1E6C88;
+}
+
+.navbar-chubut .btn-navbar {
+  color: #666;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #666;
+  *background-color: #040404;
+  background-image: -moz-linear-gradient(top, #666, #666);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#666), to(#666));
+  background-image: -webkit-linear-gradient(top, #666, #666);
+  background-image: -o-linear-gradient(top, #666, #666);
+  background-image: linear-gradient(to bottom, #666, #666);
+  background-repeat: repeat-x;
+  border-color: #040404 #040404 #fff;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff151515', endColorstr='#ff040404', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+
+.navbar-inverse .btn-navbar:hover,
+.navbar-inverse .btn-navbar:focus,
+.navbar-inverse .btn-navbar:active,
+.navbar-inverse .btn-navbar.active,
+.navbar-inverse .btn-navbar.disabled,
+.navbar-inverse .btn-navbar[disabled] {
+  color: #666;
+  background-color: #666;
+  *background-color: #666;
+}
+
+
+
+/*
+Color schema:
+	#FC8D0D	|Naranja
+	#1986a0 |Light blue (para gradient)
+	#037B97 |Dark blue  (para gradient)
+	#1E6C88	|Dark blue 
+*/
+
+.rating{
+	width:80px;
+	height:16px;
+	margin:0 0 20px 0;
+	padding:0;
+	list-style:none;
+	clear:both;
+	position:relative;
+	background: url(../img/star-matrix.gif) no-repeat 0 0;
+}
+/* add these classes to the ul to effect the change to the correct number of stars */
+.nostar {background-position:0 0}
+.onestar {background-position:0 -16px}
+.twostar {background-position:0 -32px}
+.threestar {background-position:0 -48px}
+.fourstar {background-position:0 -64px}
+.fivestar {background-position:0 -80px}
+ul.rating li {
+	cursor: pointer;
+ /*ie5 mac doesn't like it if the list is floated\*/
+	float:left;
+	/* end hide*/
+	text-indent:-999em;
+}
+ul.rating li a {
+	position:absolute;
+	left:0;
+	top:0;
+	width:16px;
+	height:16px;
+	text-decoration:none;
+	z-index: 200;
+}
+ul.rating li.one a {left:0}
+ul.rating li.two a {left:16px;}
+ul.rating li.three a {left:32px;}
+ul.rating li.four a {left:48px;}
+ul.rating li.five a {left:64px;}
+ul.rating li a:hover {
+	z-index:2;
+	width:80px;
+	height:16px;
+	overflow:hidden;
+	left:0;	
+	background: url(../img/star-matrix.gif) no-repeat 0 0
+}
+ul.rating li.one a:hover {background-position:0 -96px;}
+ul.rating li.two a:hover {background-position:0 -112px;}
+ul.rating li.three a:hover {background-position:0 -128px}
+ul.rating li.four a:hover {background-position:0 -144px}
+ul.rating li.five a:hover {background-position:0 -160px}
+/* end rating code */
